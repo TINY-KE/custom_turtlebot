@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zhjd/catkin_ws/src/scout_key_controller/cmake-build-debug/devel/setup.sh

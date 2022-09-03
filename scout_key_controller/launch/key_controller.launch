@@ -1,0 +1,16 @@
+<launch>
+
+	<node pkg="scout_key_controller" type="scout_key_controller_node" name="scout_key_controller_node" output="screen">
+		<!--最大角速度,单位为:m/s-->
+		<param name="linear_vel_max" value="1.5"/>
+		<!--最大角速度,单位为:deg/s -->
+		<param name="angular_vel_max" value="30"/>
+
+		<!--线速度增量,单位为:m/s-->
+		<param name="linear_vel_step" value="0.1"/>
+		<!--角速度增量,单位为:deg/s -->
+		<param name="angular_vel_step" value="10"/>
+
+	</node>
+
+</launch>
