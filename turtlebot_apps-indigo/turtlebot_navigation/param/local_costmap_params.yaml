@@ -1,12 +1,12 @@
 local_costmap:
-   global_frame: odom
+   global_frame: /map #zhangjiadong odom
    robot_base_frame: /base_footprint
    update_frequency: 5.0
    publish_frequency: 2.0
    static_map: false
    rolling_window: true
-   width: 4.0
-   height: 4.0
+   width: 2.0   #错误的设置为4.0之后，机器人会遇到“全局路径规划成功，但在底盘移动过程时会卡死”的问题
+   height: 2.0
    resolution: 0.05
    transform_tolerance: 0.5
    plugins:
