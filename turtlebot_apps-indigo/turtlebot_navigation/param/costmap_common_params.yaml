@@ -4,7 +4,7 @@ max_obstacle_height: 0.60  # assume something like an arm is mounted on top of t
 robot_radius: 0.20  # distance a circular robot should be clear of the obstacle (kobuki: 0.18)
 # footprint: [[x0, y0], [x1, y1], ... [xn, yn]]  # if the robot is not circular
 
-map_type: voxel
+map_type: voxel    #zhangjiadong  voxel 地图类型，这里为voxel(体素地图)。另一种地图类型为costmap(代价地图)。这两者之间的区别是前者是世界的3D表示，后者为世界的2D表示。
 
 obstacle_layer:
   enabled:              true
