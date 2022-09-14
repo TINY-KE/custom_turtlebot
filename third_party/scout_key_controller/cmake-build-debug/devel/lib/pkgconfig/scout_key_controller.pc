@@ -1,8 +1,0 @@
-prefix=/home/zhjd/catkin_ws/src/scout_key_controller/cmake-build-debug/devel
-
-Name: scout_key_controller
-Description: Description of scout_key_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
