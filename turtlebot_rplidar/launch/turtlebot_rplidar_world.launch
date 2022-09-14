@@ -1,0 +1,8 @@
+<launch>
+	<arg name="gui" default="true"/>
+	
+	<include file="$(find turtlebot_rplidar)/launch/turtlebot_gazebo.launch">
+		<arg name="world_file"  value="/home/zhjd/ws_turtlebot_custom/src/turtlebot_simulator/turtlebot_gazebo/worlds/corridor.world"/>  <!-- $(env TURTLEBOT_GAZEBO_WORLD_FILE) -->
+  		<arg name="gui" value="$(arg gui)"/>
+  	</include>
+</launch>
